@@ -1,0 +1,4 @@
+# wiki
+- Technical Notes
+- Git 
+
