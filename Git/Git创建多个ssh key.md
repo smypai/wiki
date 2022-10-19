@@ -37,7 +37,7 @@ User a@b.com
 ```
 
 * 名称	            释义
-* Host	        自定义名称，任意字符串，可以看作识别码，使用时改为(git@[Host].aliyuan.com)
+* Host	        自定义名称，任意字符串，可以看作识别码，使用时改为(Git@[Host].aliyuan.com)
 * HostName	    Git服务器的域名，使用IP地址也可,一定要是有效的
 * User	        你在Git服务器使用的用户名，使用ssh-add时的用户名也可
 * IdentityFile	配置对应的私钥文件存放的地址，建议写全地址
@@ -45,6 +45,6 @@ User a@b.com
 
 ### 4. 使用以下命令分别测试GitHub和Gitee，查看SSH Key是否添加成功。
 ```
-ssh -T git@gitee.com
-ssh -T git@github.com
+ssh -T Git@gitee.com
+ssh -T Git@github.com
 ```
