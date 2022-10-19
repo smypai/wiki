@@ -91,3 +91,5 @@ a的值为"QQQQPPPWWWabcGGGGabc"
 * ltrim()、rtrim() 和 trim() 函数的区别 　　
 * 返回不带前导空格 (ltrim)、后续空格 (rtrim) 或前导与后续空格 (trim) 的字符串
 
+### 字符串长度
+* string.length()
