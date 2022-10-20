@@ -1,5 +1,5 @@
 ```java
-class Test{
+class com.test.Test{
     // 根据 ID 查询
     T selectById(Serializable id);
     // 根据 entity 条件，查询一条记录

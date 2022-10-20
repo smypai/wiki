@@ -69,9 +69,10 @@ for(String s:strsToList3){
 System.out.println(s);
 }
 ```
-
-
-
+* java List转String
+```
+System.out.println(StringUtils.join(list, ","));
+System.out.println(StringUtils.join(list, ""));
  
 
  
