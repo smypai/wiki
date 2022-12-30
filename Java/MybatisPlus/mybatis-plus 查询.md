@@ -22,6 +22,4 @@ class com.test.Test{
     IPage<Map<String, Object>> selectMapsPage(IPage<T> page, @Param(Constants.WRAPPER) Wrapper<T> queryWrapper);
     // 根据 Wrapper 条件，查询总记录数
     Integer selectCount(@Param(Constants.WRAPPER) Wrapper<T> queryWrapper);
-
 }
-```
